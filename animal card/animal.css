@@ -1,0 +1,64 @@
+.card {
+  border-radius: 10px;
+  background: #e0e0e0;
+  box-shadow: 9px 9px 24px #6e6e6e, -9px -9px 24px #ffffff;
+  width: 30vw;
+  margin-left: 30vw;
+  font-family: sans-serif;
+  padding-bottom: 10px;
+}
+.lion {
+  width: 15vw;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+.lion2 {
+  width: 98%;
+  height: 40vh;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.div2 {
+  grid-area: 1 / 2 / 2 / 3;
+
+  margin-left: 7px;
+  margin-top: -20px;
+}
+
+.div2 h1 {
+  text-align: center;
+}
+
+.links {
+  text-decoration: none;
+  margin-left: 50px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.links:hover {
+  color: rgb(36, 211, 36);
+}
+
+.nameline {
+  margin-top: -15px;
+}
+
+.overlay {
+  background-image: url("lion2.jpg");
+  background-size: 100%;
+}
